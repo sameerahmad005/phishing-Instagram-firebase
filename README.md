@@ -1,7 +1,3 @@
-Great! I see you've already created a GitHub repository for your Instagram phishing page connected to Firebase. Here's an updated GitHub description based on your repository:
-
----
-
 # Phishing Instagram Firebase
 
 This repository contains a simulated Instagram login page created using HTML5, CSS, and JavaScript. The page is designed for educational purposes to demonstrate how phishing attacks can be carried out. It is connected to Firebase to simulate data collection and storage.
