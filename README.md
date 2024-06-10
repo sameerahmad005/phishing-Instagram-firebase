@@ -1,68 +1,59 @@
-# Instagram Phishing Page Connected to Firebase
+Great! I see you've already created a GitHub repository for your Instagram phishing page connected to Firebase. Here's an updated GitHub description based on your repository:
 
-This repository contains an Instagram phishing page integrated with Firebase for real-time database connectivity. It is designed for educational and security research purposes only. Unauthorized use of this repository for malicious purposes is strictly prohibited.
+---
+
+# Phishing Instagram Firebase
+
+This repository contains a simulated Instagram login page created using HTML5, CSS, and JavaScript. The page is designed for educational purposes to demonstrate how phishing attacks can be carried out. It is connected to Firebase to simulate data collection and storage.
 
 ## Features
 
-- **Instagram-like Interface:** Mimics the look and feel of the Instagram login page to deceive unsuspecting users.
-- **Firebase Integration:** Connects to Firebase to store and manage captured credentials.
-- **Real-time Database:** Uses Firebase's real-time database to update and retrieve data instantly.
-- **Data Viewing:** Allows viewing of captured credentials through a simple web interface.
-
-## Setup
-
-### Prerequisites
-
-- Node.js and npm installed
-- Firebase account and project setup
-
-### Installation
-
-1. Clone the repository:
-    ```bash
-    git clone https://github.com/your-username/instagram-phishing-page.git
-    cd instagram-phishing-page
-    ```
-
-2. Install dependencies:
-    ```bash
-    npm install
-    ```
-
-3. Configure Firebase:
-    - Create a new Firebase project at [Firebase Console](https://console.firebase.google.com/).
-    - Obtain your Firebase project's configuration and replace the placeholder in `firebaseConfig.js`:
-        ```javascript
-        const firebaseConfig = {
-            apiKey: "YOUR_API_KEY",
-            authDomain: "YOUR_PROJECT_ID.firebaseapp.com",
-            databaseURL: "https://YOUR_PROJECT_ID.firebaseio.com",
-            projectId: "YOUR_PROJECT_ID",
-            storageBucket: "YOUR_PROJECT_ID.appspot.com",
-            messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
-            appId: "YOUR_APP_ID"
-        };
-        ```
-
-4. Deploy the phishing page:
-    ```bash
-    npm start
-    ```
-
-### Usage
-
-1. Navigate to the deployed phishing page.
-2. Any credentials entered will be captured and stored in the Firebase database.
-3. Access the Firebase console to view the stored credentials.
+- **Responsive Design**: Created using HTML5 and CSS to closely mimic the Instagram login interface.
+- **Interactive Elements**: JavaScript is used to handle user inputs and form submission.
+- **Firebase Integration**: Captured login credentials are stored in a Firebase database for demonstration purposes.
 
 ## Disclaimer
 
-This project is intended for educational purposes only. Unauthorized use of this software to deceive and obtain credentials from individuals without their explicit consent is illegal and unethical. The authors do not take any responsibility for any misuse of this software.
+**This project is intended for educational purposes only.** It is designed to raise awareness about phishing attacks and to help individuals learn how to protect themselves from such threats. Using this tool to collect real user data without consent is illegal and unethical.
 
-## Contributing
+## Setup Instructions
 
-Contributions are welcome. Please open an issue or submit a pull request for any improvements or bug fixes.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/sameerahmad005/phishing-Instagram-firebase.git
+   cd phishing-Instagram-firebase
+   ```
+
+2. Open `index.html` in a web browser to view the phishing page.
+
+3. To connect to Firebase, configure your Firebase project settings in `firebase-config.js`:
+   ```javascript
+   const firebaseConfig = {
+     apiKey: "YOUR_API_KEY",
+     authDomain: "YOUR_PROJECT_ID.firebaseapp.com",
+     databaseURL: "https://YOUR_PROJECT_ID.firebaseio.com",
+     projectId: "YOUR_PROJECT_ID",
+     storageBucket: "YOUR_PROJECT_ID.appspot.com",
+     messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
+     appId: "YOUR_APP_ID"
+   };
+   firebase.initializeApp(firebaseConfig);
+   ```
+
+## Educational Resources
+
+- [How Phishing Works](https://example.com/phishing-explained)
+- [Protecting Yourself from Phishing Attacks](https://example.com/phishing-protection)
+- [Firebase Documentation](https://firebase.google.com/docs)
+
+## Contribution
+
+Contributions are welcome! Please read the [contribution guidelines](CONTRIBUTING.md) first.
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+
+Feel free to update the README with any additional information or customization you'd like!
