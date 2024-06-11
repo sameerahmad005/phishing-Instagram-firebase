@@ -52,4 +52,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-Feel free to update the README with any additional information or customization you'd like!
+Feel free to update the HTML, CSS and JAVA with any additional information or customization you'd like!
