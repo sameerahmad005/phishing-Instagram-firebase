@@ -22,7 +22,7 @@ This repository contains a simulated Instagram login page created using HTML5, C
 
 2. Open `index.html` in a web browser to view the phishing page.
 
-3. To connect to Firebase, configure your Firebase project settings in `firebase-config.js`:
+3. To connect to Firebase, configure your Firebase project settings in `app.js`:
    ```javascript
    const firebaseConfig = {
      apiKey: "YOUR_API_KEY",
