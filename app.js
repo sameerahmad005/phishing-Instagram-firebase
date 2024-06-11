@@ -1,13 +1,13 @@
 // Your web app's Firebase configuration
 var firebaseConfig = {
-    apiKey: "AIzaSyBZmmbbXdxPd_FAqjktaJgRzzOyHuhbgC0",
-    authDomain: "githubproject-samir.firebaseapp.com",
-    databaseURL: "https://githubproject-samir-default-rtdb.firebaseio.com",
-    projectId: "githubproject-samir",
-    storageBucket: "githubproject-samir.appspot.com",
-    messagingSenderId: "693345685690",
-    appId: "1:693345685690:web:c65f35d5c18d913a38f283",
-    measurementId: "G-290YKQECBW"
+    apiKey: "YOUR_API_KEY",
+    authDomain: "YOUR_AUTH_DOMAIN",
+    databaseURL: "YOUR_DATABASE_URL",
+    projectId: "YOUR_PROJECT_ID",
+    storageBucket: "YOUR_STORAGE_BUCKET",
+    messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
+    appId: "YOUR_APP_ID",
+    measurementId: "YOUR_MEASUREMENT_ID"
   };
   
   // Initialize Firebase
