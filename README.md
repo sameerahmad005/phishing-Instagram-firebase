@@ -1,4 +1,5 @@
 # Phishing Instagram Firebase
+![image](https://github.com/sameerahmad005/phishing-Instagram-firebase/assets/136889939/52e4e283-f6da-47b1-87e2-70830ccb7862)
 
 This repository contains a simulated Instagram login page created using HTML5, CSS, and JavaScript. The page is designed for educational purposes to demonstrate how phishing attacks can be carried out. It is connected to Firebase to simulate data collection and storage.
 
