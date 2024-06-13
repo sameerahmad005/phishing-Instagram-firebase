@@ -39,7 +39,7 @@ This repository contains a simulated Instagram login page created using HTML5, C
 ## Educational Resources
 
 - [How Phishing Works](how-phishing-works.md)
-- [Protecting Yourself from Phishing Attacks](https://example.com/phishing-protection)
+- [Protecting Yourself from Phishing Attacks](how-phishing-works.md#best-practices-for-cybersecurity)
 - [Firebase Documentation](https://firebase.google.com/docs)
 
 ## Contribution
